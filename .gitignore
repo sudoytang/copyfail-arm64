@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Compiled binaries
+arm64_syscall/call_tiny
+
+# ARM64 exploit payload and build tools (not publicly disclosed)
+src/build_tiny_elf.py
+src/get_shellcode_hex.py
+src/copy_fail_exp_aarch64.py
